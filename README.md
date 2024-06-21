@@ -10,13 +10,18 @@ One of the public instances has been enabled to access s3 buckets with certain I
 
 ## Prerequisites and Usage:
 Terraform 1.1.7
+
 AWS-CLI 2.15.22
+
 OpenSSH.
 
 ## Usage:
 Configure aws credentials by using AWS CLI i.e., execute **aws configure**.
+
 Generate ssh key using Openssh, exeute **ssh-keygen** to generate ssh keys.
+
 Add public key to public_key.txt file to generate key pair required to connect EC2 instances.
+
 Initiate project with **tearraform init**.
 
 
